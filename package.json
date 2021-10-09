@@ -1,0 +1,31 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Developes a team profile",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-J-U/Jin-Kyoos-team-profile-generator.git"
+  },
+  "author": "Aidan",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/A-J-U/Jin-Kyoos-team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/A-J-U/Jin-Kyoos-team-profile-generator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
